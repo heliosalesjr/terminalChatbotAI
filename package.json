@@ -1,19 +1,18 @@
 {
-  "name": "chatgpt-chatbot",
+  "name": "chatbot",
   "version": "1.0.0",
-  "description": "chatbot is a simple chat server",
+  "description": "Chatbot powered by ChatGPT",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "Helio Sales Jr",
+  "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0",
     "dotenv": "^16.3.1",
     "openai": "^3.3.0",
-    "readline": "^1.3.0"
+    "readline-sync": "^1.4.10"
   }
 }
